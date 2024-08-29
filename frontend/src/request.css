@@ -1,0 +1,33 @@
+.request-container {
+    margin: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  .item-label {
+    font-weight: bold;
+  }
+  
+  .item-value {
+    margin-top: 5px;
+  }
+  .request-list {
+    margin-top: 20px;
+  }
+  
+  .request-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .provide-button {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,116 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e759b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    box-shadow:0px 0px 10px rgba(0.2, 0.2, 0.2, 0.2); ;
+  }
+  
+  .li1 {
+    float: left;
+  }
+  
+  .li1 a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 30px;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  
+  .li1 a:hover {
+    background-color: #85bac2;
+  }
+  
+  .page-container {
+    background-image: url('./img/background10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1{
+    position:relative;
+    left:100px;
+  }
+  
+  .white-box {
+   
+    width: 40%;
+    height: 420px;
+    width:1000px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align:center;
+  }
+
+  /*Text*/
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  
+  .text-content {
+    animation: fadeIn 1.5s ease-in-out;
+    flex: 1;
+    padding: 25px;
+    font-family:"monotype corsiva",cursive;
+    font-size: 22px;
+    color: #00450c;
+    
+  }
+  /*End of text*/
+  
+  .side-image {
+    flex: 1;
+    background-image: url('./img/logo-png.png');
+    /* top:50%;
+    bottom:50%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust the height to fit your layout */
+  }
+
+
+  /*get started button*/
+  .get-started {
+    color: aliceblue;
+    background-color: darkkhaki;
+    padding: 10px;
+    border: none;
+    border-radius: 25px; /* Adjust the value to make it more or less circular */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Creates a subtle 3D effect */
+    transition: transform 0.3s ease; /* Adds a smooth transition effect */
+  }
+  .get-started:hover {
+    transform: scale(1.05); /* Scales the button slightly on hover */
+  }
+  /*end of get started button*/
+  
+  
+  
+  
+  
+  

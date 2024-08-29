@@ -1,0 +1,63 @@
+.profile-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .order-details p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .order-details ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .order-details li {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .order-details .has-buy-items p,
+  .order-details .has-rent-items p {
+    font-weight: bold;
+    color: #888;
+  }
+  
+  .order-details .has-buy-items ul,
+  .order-details .has-rent-items ul {
+    margin-left: 20px;
+  }
+  
+  .order-details .has-buy-items li,
+  .order-details .has-rent-items li {
+    color: #666;
+  }
+  
+  .order-details .has-buy-items li:before,
+  .order-details .has-rent-items li:before {
+    content: "\\2022";
+    color: #666;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  

@@ -1,0 +1,91 @@
+.cart-container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .cart-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-section-title {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .cart-item-details {
+    text-align: left;
+  }
+  
+  .cart-item-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-price {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-duration-label {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .cart-item-duration-input {
+    width: 120px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .cart-action-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .order-placed-message {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .clear-cart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart-total-price {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .clear-cart-btn:hover,
+  .cart-action-btn:hover {
+    opacity: 0.8;
+  }
+  

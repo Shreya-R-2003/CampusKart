@@ -1,0 +1,64 @@
+.request-form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.request-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.request-form input[type="text"],
+.request-form textarea,
+.request-form select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.request-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.request-form button:hover {
+  background-color: #45a049;
+}
+
+.request-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.request-form .error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.request-form .form-group {
+  margin-bottom: 20px;
+}
+
+.request-form .form-group label {
+  text-align: left;
+}
+
+.request-form .form-group select {
+  width: 100%;
+}
+
